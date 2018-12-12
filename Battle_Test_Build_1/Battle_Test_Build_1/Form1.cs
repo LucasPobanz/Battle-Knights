@@ -26,10 +26,11 @@ namespace Battle_Test_Build_1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            form1 = new Form1();
-            var myPlayer = new System.Media.SoundPlayer();
-            myPlayer.SoundLocation = @"D:\BPA\Battle_Test_Build_1\Scanline.wav";
-            myPlayer.Play();
+           // form1 = new Form1();
+           // var myPlayer = new System.Media.SoundPlayer();
+           // myPlayer.SoundLocation = @"D:\BPA\Battle_Test_Build_1\Scanline.wav";
+           // myPlayer.Play();
+           // Proof of concept
 
 
         }
