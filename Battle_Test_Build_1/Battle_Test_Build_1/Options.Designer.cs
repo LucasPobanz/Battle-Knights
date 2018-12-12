@@ -41,10 +41,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -52,13 +48,37 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.backToCharacterScreenBtn = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grpTeam1 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.chkPlayer1Team1 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer2Team1 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer3Team1 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer4Team1 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer1Team2 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer2Team2 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer3Team2 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer4Team2 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer1Team3 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer2Team3 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer3Team3 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer4Team3 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer1Team4 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer2Team4 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer3Team4 = new System.Windows.Forms.CheckBox();
+            this.chkPlayer4Team4 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.grpTeam1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // numericUpDown1
@@ -190,38 +210,6 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "label6";
             // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(108, 247);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox1.TabIndex = 13;
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Location = new System.Drawing.Point(265, 247);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox2.TabIndex = 14;
-            // 
-            // checkedListBox3
-            // 
-            this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Location = new System.Drawing.Point(422, 247);
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox3.TabIndex = 15;
-            // 
-            // checkedListBox4
-            // 
-            this.checkedListBox4.FormattingEnabled = true;
-            this.checkedListBox4.Location = new System.Drawing.Point(571, 247);
-            this.checkedListBox4.Name = "checkedListBox4";
-            this.checkedListBox4.Size = new System.Drawing.Size(112, 79);
-            this.checkedListBox4.TabIndex = 16;
-            // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -286,14 +274,6 @@
             this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(571, 363);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 92);
-            this.pictureBox4.TabIndex = 24;
-            this.pictureBox4.TabStop = false;
-            // 
             // backToCharacterScreenBtn
             // 
             this.backToCharacterScreenBtn.Location = new System.Drawing.Point(30, 15);
@@ -304,11 +284,241 @@
             this.backToCharacterScreenBtn.UseVisualStyleBackColor = true;
             this.backToCharacterScreenBtn.Click += new System.EventHandler(this.backToCharacterScreenBtn_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(571, 363);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 92);
+            this.pictureBox4.TabIndex = 24;
+            this.pictureBox4.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.chkPlayer4Team3);
+            this.groupBox1.Controls.Add(this.chkPlayer3Team3);
+            this.groupBox1.Controls.Add(this.chkPlayer2Team3);
+            this.groupBox1.Controls.Add(this.chkPlayer1Team3);
+            this.groupBox1.Location = new System.Drawing.Point(429, 248);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(100, 109);
+            this.groupBox1.TabIndex = 26;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.chkPlayer1Team2);
+            this.groupBox2.Controls.Add(this.chkPlayer2Team2);
+            this.groupBox2.Controls.Add(this.chkPlayer3Team2);
+            this.groupBox2.Controls.Add(this.chkPlayer4Team2);
+            this.groupBox2.Location = new System.Drawing.Point(265, 248);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(100, 109);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // grpTeam1
+            // 
+            this.grpTeam1.Controls.Add(this.chkPlayer1Team1);
+            this.grpTeam1.Controls.Add(this.chkPlayer2Team1);
+            this.grpTeam1.Controls.Add(this.chkPlayer3Team1);
+            this.grpTeam1.Controls.Add(this.chkPlayer4Team1);
+            this.grpTeam1.Location = new System.Drawing.Point(108, 248);
+            this.grpTeam1.Name = "grpTeam1";
+            this.grpTeam1.Size = new System.Drawing.Size(100, 109);
+            this.grpTeam1.TabIndex = 0;
+            this.grpTeam1.TabStop = false;
+            this.grpTeam1.Text = "Team 1";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.chkPlayer4Team4);
+            this.groupBox4.Controls.Add(this.chkPlayer3Team4);
+            this.groupBox4.Controls.Add(this.chkPlayer2Team4);
+            this.groupBox4.Controls.Add(this.chkPlayer1Team4);
+            this.groupBox4.Location = new System.Drawing.Point(571, 248);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(100, 109);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "groupBox4";
+            // 
+            // chkPlayer1Team1
+            // 
+            this.chkPlayer1Team1.AutoSize = true;
+            this.chkPlayer1Team1.Location = new System.Drawing.Point(6, 19);
+            this.chkPlayer1Team1.Name = "chkPlayer1Team1";
+            this.chkPlayer1Team1.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer1Team1.TabIndex = 0;
+            this.chkPlayer1Team1.Text = "Player 1";
+            this.chkPlayer1Team1.UseVisualStyleBackColor = true;
+            this.chkPlayer1Team1.CheckedChanged += new System.EventHandler(this.chkPlayer1Team1_CheckedChanged);
+            // 
+            // chkPlayer2Team1
+            // 
+            this.chkPlayer2Team1.AutoSize = true;
+            this.chkPlayer2Team1.Location = new System.Drawing.Point(6, 42);
+            this.chkPlayer2Team1.Name = "chkPlayer2Team1";
+            this.chkPlayer2Team1.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer2Team1.TabIndex = 1;
+            this.chkPlayer2Team1.Text = "Player 2";
+            this.chkPlayer2Team1.UseVisualStyleBackColor = true;
+            this.chkPlayer2Team1.CheckedChanged += new System.EventHandler(this.chkPlayer2Team1_CheckedChanged);
+            // 
+            // chkPlayer3Team1
+            // 
+            this.chkPlayer3Team1.AutoSize = true;
+            this.chkPlayer3Team1.Location = new System.Drawing.Point(6, 65);
+            this.chkPlayer3Team1.Name = "chkPlayer3Team1";
+            this.chkPlayer3Team1.Size = new System.Drawing.Size(63, 17);
+            this.chkPlayer3Team1.TabIndex = 2;
+            this.chkPlayer3Team1.Text = "player 3";
+            this.chkPlayer3Team1.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer4Team1
+            // 
+            this.chkPlayer4Team1.AutoSize = true;
+            this.chkPlayer4Team1.Location = new System.Drawing.Point(6, 88);
+            this.chkPlayer4Team1.Name = "chkPlayer4Team1";
+            this.chkPlayer4Team1.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer4Team1.TabIndex = 3;
+            this.chkPlayer4Team1.Text = "Player 4";
+            this.chkPlayer4Team1.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer1Team2
+            // 
+            this.chkPlayer1Team2.AutoSize = true;
+            this.chkPlayer1Team2.Location = new System.Drawing.Point(6, 19);
+            this.chkPlayer1Team2.Name = "chkPlayer1Team2";
+            this.chkPlayer1Team2.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer1Team2.TabIndex = 4;
+            this.chkPlayer1Team2.Text = "Player 1";
+            this.chkPlayer1Team2.UseVisualStyleBackColor = true;
+            this.chkPlayer1Team2.CheckedChanged += new System.EventHandler(this.chkPlayer1Team2_CheckedChanged);
+            // 
+            // chkPlayer2Team2
+            // 
+            this.chkPlayer2Team2.AutoSize = true;
+            this.chkPlayer2Team2.Location = new System.Drawing.Point(6, 42);
+            this.chkPlayer2Team2.Name = "chkPlayer2Team2";
+            this.chkPlayer2Team2.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer2Team2.TabIndex = 5;
+            this.chkPlayer2Team2.Text = "Player 2";
+            this.chkPlayer2Team2.UseVisualStyleBackColor = true;
+            this.chkPlayer2Team2.CheckedChanged += new System.EventHandler(this.chkPlayer2Team2_CheckedChanged);
+            // 
+            // chkPlayer3Team2
+            // 
+            this.chkPlayer3Team2.AutoSize = true;
+            this.chkPlayer3Team2.Location = new System.Drawing.Point(6, 65);
+            this.chkPlayer3Team2.Name = "chkPlayer3Team2";
+            this.chkPlayer3Team2.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer3Team2.TabIndex = 6;
+            this.chkPlayer3Team2.Text = "Player 3";
+            this.chkPlayer3Team2.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer4Team2
+            // 
+            this.chkPlayer4Team2.AutoSize = true;
+            this.chkPlayer4Team2.Location = new System.Drawing.Point(6, 88);
+            this.chkPlayer4Team2.Name = "chkPlayer4Team2";
+            this.chkPlayer4Team2.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer4Team2.TabIndex = 0;
+            this.chkPlayer4Team2.Text = "Player 4";
+            this.chkPlayer4Team2.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer1Team3
+            // 
+            this.chkPlayer1Team3.AutoSize = true;
+            this.chkPlayer1Team3.Location = new System.Drawing.Point(6, 19);
+            this.chkPlayer1Team3.Name = "chkPlayer1Team3";
+            this.chkPlayer1Team3.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer1Team3.TabIndex = 0;
+            this.chkPlayer1Team3.Text = "Player 1";
+            this.chkPlayer1Team3.UseVisualStyleBackColor = true;
+            this.chkPlayer1Team3.CheckedChanged += new System.EventHandler(this.chkPlayer1Team3_CheckedChanged);
+            // 
+            // chkPlayer2Team3
+            // 
+            this.chkPlayer2Team3.AutoSize = true;
+            this.chkPlayer2Team3.Location = new System.Drawing.Point(6, 42);
+            this.chkPlayer2Team3.Name = "chkPlayer2Team3";
+            this.chkPlayer2Team3.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer2Team3.TabIndex = 1;
+            this.chkPlayer2Team3.Text = "Player 2";
+            this.chkPlayer2Team3.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer3Team3
+            // 
+            this.chkPlayer3Team3.AutoSize = true;
+            this.chkPlayer3Team3.Location = new System.Drawing.Point(6, 65);
+            this.chkPlayer3Team3.Name = "chkPlayer3Team3";
+            this.chkPlayer3Team3.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer3Team3.TabIndex = 2;
+            this.chkPlayer3Team3.Text = "Player 3";
+            this.chkPlayer3Team3.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer4Team3
+            // 
+            this.chkPlayer4Team3.AutoSize = true;
+            this.chkPlayer4Team3.Location = new System.Drawing.Point(6, 88);
+            this.chkPlayer4Team3.Name = "chkPlayer4Team3";
+            this.chkPlayer4Team3.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer4Team3.TabIndex = 3;
+            this.chkPlayer4Team3.Text = "Player 4";
+            this.chkPlayer4Team3.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer1Team4
+            // 
+            this.chkPlayer1Team4.AutoSize = true;
+            this.chkPlayer1Team4.Location = new System.Drawing.Point(6, 19);
+            this.chkPlayer1Team4.Name = "chkPlayer1Team4";
+            this.chkPlayer1Team4.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer1Team4.TabIndex = 0;
+            this.chkPlayer1Team4.Text = "Player 1";
+            this.chkPlayer1Team4.UseVisualStyleBackColor = true;
+            this.chkPlayer1Team4.CheckedChanged += new System.EventHandler(this.chkPlayer1Team4_CheckedChanged);
+            // 
+            // chkPlayer2Team4
+            // 
+            this.chkPlayer2Team4.AutoSize = true;
+            this.chkPlayer2Team4.Location = new System.Drawing.Point(6, 42);
+            this.chkPlayer2Team4.Name = "chkPlayer2Team4";
+            this.chkPlayer2Team4.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer2Team4.TabIndex = 1;
+            this.chkPlayer2Team4.Text = "Player 2";
+            this.chkPlayer2Team4.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer3Team4
+            // 
+            this.chkPlayer3Team4.AutoSize = true;
+            this.chkPlayer3Team4.Location = new System.Drawing.Point(6, 65);
+            this.chkPlayer3Team4.Name = "chkPlayer3Team4";
+            this.chkPlayer3Team4.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer3Team4.TabIndex = 2;
+            this.chkPlayer3Team4.Text = "Player 3";
+            this.chkPlayer3Team4.UseVisualStyleBackColor = true;
+            // 
+            // chkPlayer4Team4
+            // 
+            this.chkPlayer4Team4.AutoSize = true;
+            this.chkPlayer4Team4.Location = new System.Drawing.Point(6, 88);
+            this.chkPlayer4Team4.Name = "chkPlayer4Team4";
+            this.chkPlayer4Team4.Size = new System.Drawing.Size(64, 17);
+            this.chkPlayer4Team4.TabIndex = 3;
+            this.chkPlayer4Team4.Text = "Player 4";
+            this.chkPlayer4Team4.UseVisualStyleBackColor = true;
+            // 
             // Options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 511);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.grpTeam1);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.backToCharacterScreenBtn);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -318,10 +528,6 @@
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.checkedListBox4);
-            this.Controls.Add(this.checkedListBox3);
-            this.Controls.Add(this.checkedListBox2);
-            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -342,6 +548,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.grpTeam1.ResumeLayout(false);
+            this.grpTeam1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -362,10 +576,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
-        private System.Windows.Forms.CheckedListBox checkedListBox3;
-        private System.Windows.Forms.CheckedListBox checkedListBox4;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -373,7 +583,27 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button backToCharacterScreenBtn;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grpTeam1;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.CheckBox chkPlayer1Team1;
+        private System.Windows.Forms.CheckBox chkPlayer2Team1;
+        private System.Windows.Forms.CheckBox chkPlayer3Team1;
+        private System.Windows.Forms.CheckBox chkPlayer4Team1;
+        private System.Windows.Forms.CheckBox chkPlayer3Team3;
+        private System.Windows.Forms.CheckBox chkPlayer2Team3;
+        private System.Windows.Forms.CheckBox chkPlayer1Team3;
+        private System.Windows.Forms.CheckBox chkPlayer1Team2;
+        private System.Windows.Forms.CheckBox chkPlayer2Team2;
+        private System.Windows.Forms.CheckBox chkPlayer3Team2;
+        private System.Windows.Forms.CheckBox chkPlayer4Team2;
+        private System.Windows.Forms.CheckBox chkPlayer4Team3;
+        private System.Windows.Forms.CheckBox chkPlayer4Team4;
+        private System.Windows.Forms.CheckBox chkPlayer3Team4;
+        private System.Windows.Forms.CheckBox chkPlayer2Team4;
+        private System.Windows.Forms.CheckBox chkPlayer1Team4;
     }
 }

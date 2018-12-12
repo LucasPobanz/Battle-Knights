@@ -48,5 +48,65 @@ namespace Battle_Test_Build_1
             timeChkBox.Checked = false;
             gameMode = "Lives";
         }
+
+        private void chkPlayer1Team1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkPlayer1Team1.Checked == true)
+            {
+                chkPlayer1Team2.Checked = false;
+                chkPlayer1Team3.Checked = false;
+                chkPlayer1Team4.Checked = false;
+            }
+        }
+
+        private void chkPlayer1Team2_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkPlayer1Team2.Checked == true)
+            {
+                chkPlayer1Team1.Checked = false;
+                chkPlayer1Team3.Checked = false;
+                chkPlayer1Team4.Checked = false;
+            }
+        }
+
+        private void chkPlayer1Team3_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkPlayer1Team3.Checked == true)
+            {
+                chkPlayer1Team1.Checked = false;
+                chkPlayer1Team2.Checked = false;
+                chkPlayer1Team4.Checked = false;
+            }
+        }
+
+        private void chkPlayer1Team4_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkPlayer1Team4.Checked == true)
+            {
+                chkPlayer1Team1.Checked = false;
+                chkPlayer1Team2.Checked = false;
+                chkPlayer1Team3.Checked = false;
+            }
+        }
+
+        private void chkPlayer2Team1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkPlayer2Team1.Checked == true)
+            {
+                chkPlayer2Team2.Checked = false;
+                chkPlayer2Team3.Checked = false;
+                chkPlayer2Team4.Checked = false;
+            }
+        }
+
+        private void chkPlayer2Team2_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkPlayer2Team2.Checked == true)
+            {
+                chkPlayer2Team1.Checked = false;
+                chkPlayer2Team3.Checked = false;
+                chkPlayer2Team4.Checked = false;
+            }
+        }
     }
 }
