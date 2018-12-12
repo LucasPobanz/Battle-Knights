@@ -26,3 +26,17 @@ F:\BPA\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Map
 D:\BPA\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Map1.resources
 D:\BPA\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.mapSelection.resources
 D:\BPA\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Options.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\bin\Debug\Battle_Test_Build_1.exe.config
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\bin\Debug\Battle_Test_Build_1.exe
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\bin\Debug\Battle_Test_Build_1.pdb
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.csprojAssemblyReference.cache
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.CharacterScreen.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Form1.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Map1.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.mapSelection.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Options.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.Properties.Resources.resources
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.csproj.GenerateResource.cache
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.csproj.CoreCompileInputs.cache
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.exe
+S:\Battle-Knights\Battle_Test_Build_1\Battle_Test_Build_1\obj\Debug\Battle_Test_Build_1.pdb
